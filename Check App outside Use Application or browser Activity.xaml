@@ -1,0 +1,137 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Check_App_outside_Use_Application_or_browser_Activity" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1510,856" sap2010:WorkflowViewState.IdRef="Check_App_outside_Use_Application_or_browser_Activity_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Check_App_outside_Use_Application_or_browser_Activity" sap:VirtualizedContainerService.HintSize="1058,791" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="996,680" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+      <ui:RetryScope.ActivityBody>
+        <ActivityAction>
+          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,103" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </ActivityAction>
+      </ui:RetryScope.ActivityBody>
+      <ui:RetryScope.Condition>
+        <ActivityFunc x:TypeArguments="x:Boolean">
+          <uix:NCheckState DisplayName="Check App State 'RichEditD2DPT'" sap:VirtualizedContainerService.HintSize="954,417" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V3">
+            <uix:NCheckState.IfExists>
+              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,200" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Withdrawal details file open&quot;]" />
+              </Sequence>
+            </uix:NCheckState.IfExists>
+            <uix:NCheckState.IfNotExists>
+              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,200" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Withdrawal details file not open&quot;]" />
+              </Sequence>
+            </uix:NCheckState.IfNotExists>
+            <uix:NCheckState.Target>
+              <uix:TargetAnchorable DesignTimeRectangle="6, 75, 1428, 640" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'RichEditD2DPT'" FullSelectorArgument="&lt;wnd cls='RichEditD2DPT' /&gt;" FuzzySelectorArgument="&lt;wnd cls='RichEditD2DPT' /&gt;" Guid="3c6e7107-73f4-48db-baba-9484fc240e61" ImageBase64="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" InformativeScreenshot="8d5be998a8a030d430a6b49f2a9f44a1.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Withdrawal details - Notepad' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V1" Visibility="Interactive" />
+            </uix:NCheckState.Target>
+          </uix:NCheckState>
+        </ActivityFunc>
+      </ui:RetryScope.Condition>
+    </ui:RetryScope>
+  </Sequence>
+</Activity>
